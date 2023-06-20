@@ -16,8 +16,6 @@ Vue.prototype.$axios = axios
 Vue.prototype.$layer = layer(Vue)
 //初始化
 
-
-
 /* eslint-disable no-new */
 new Vue({
   render: h => h(App),
