@@ -1,0 +1,87 @@
+body, button, input, select, textarea, th {
+  color: #000;
+  background-color: #fff;
+  font-size: 14px;
+  line-height: 1.5;
+  font-family: poppin,Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif;
+  font-family: Tahoma,Arial,\5FAE\8F6F\96C5\9ED1,sans-serif,9;
+}
+
+.mod_songlist--edit .songlist__header, .mod_songlist--edit .songlist__item {
+  padding-left: 62px!important;
+}
+.mod_songlist--edit .songlist__header, .mod_songlist--edit .songlist__item, .mod_songlist_toolbar--edit {
+  padding-left: 82px;
+}
+
+.mod_songlist--edit .songlist__edit--check, .mod_songlist_toolbar--edit .songlist__edit--check {
+  border-color: #31c27c;
+  background-position: -60px -100px;
+}
+.mod_songlist--edit .songlist__edit, .mod_songlist_toolbar--edit .songlist__edit {
+  display: block;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  margin-top: -9px;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  border: 1px solid #ccc;
+  background-position: -1000px;
+}
+
+
+.mod_songlist--edit .songlist__edit {
+  left: 0;
+  border-color: #545555;
+  border-color: hsla(0, 0%, 88.2%, .2);
+}
+
+.sprite, .sprite_before:before {
+  background-image: url('https://y.qq.com/ryqq/static/media/icon_sprite.630b3e60.png?max_age=2592000');
+}
+.songlist__edit {
+  display: none;
+}
+
+.mod_songlist--edit .songlist__edit--check, .mod_songlist_toolbar--edit .songlist__edit--check {
+   border-color: #31c27c;
+   background-position: -60px -100px;
+}
+.mod_songlist--edit .songlist__edit input, .mod_songlist_toolbar--edit input {
+  width: 14px;
+  height: 14px;
+}
+.songlist__checkbox {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.songlist__album, .songlist__artist, .songlist__header_album, .songlist__header_author {
+  float: left;
+  padding-left: 15px;
+  width: 25.5%;
+  box-sizing: border-box;
+}
+
+.songlist__album, .songlist__artist, .songlist__number, .songlist__other, .songlist__songname, .songlist__time {
+  line-height: 50px;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.songlist__album, .songlist__artist, .songlist__number, .songlist__other, .songlist__time {
+  font-size: 14px;
+}
+
+.list_menu__icon_add, .list_menu__icon_delete, .list_menu__icon_down, .list_menu__icon_down_vip, .list_menu__icon_edit, .list_menu__icon_pause, .list_menu__icon_play, .list_menu__icon_share {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background-image: url('https://y.qq.com/ryqq/static/media/icon_list_menu.08951c0e.png?max_age=2592000');
+  background-repeat: no-repeat;
+}
+
+
